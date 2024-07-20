@@ -14,7 +14,8 @@ Fine-tuning a model while controlling for a specific attribute can significantly
 2. **Adversarial Head Goal:**
    - Achieve 50% accuracy to ensure no extra information is contained in the model.
 
-![Adversarial Training Illustration](assets/adv_training.png)
+<img src="assets/adv_training.png" alt="Adversarial Training Illustration" width="400">
+
 
 ### [Unsupervised Language Adaptation](https://aclanthology.org/D19-6102.pdf) (Rocha and Cardoso, 2019)
 Adversarial training in a cross-lingual setting aims to make the neural network agnostic to the input language while addressing specific tasks. Key components include:
@@ -47,7 +48,8 @@ Adversarial training in a cross-lingual setting aims to make the neural network 
    - Language discriminator (uses private feature extractor)
    - Final loss includes task loss, language loss, difference loss (between shared and private representations), and similarity loss (between shared and private representations).
 
-![Shared and Private Architecture](assets/private_shared.png)
+<img src="assets/private_shared.png" alt="Shared and Private Architecture" width="500">
+
 
 The Shared Private architecture is introduced in [Adversarial Multi-Task Learning for Text Classification](https://aclanthology.org/P17-1001.pdf) by Liu et al. (2017).
 
@@ -57,16 +59,16 @@ The Shared Private architecture is introduced in [Adversarial Multi-Task Learnin
 
 | Language | mBERT (single) | mBERT (double) | mBERT (adversarial) |
 | -------- | -------------- | -------------- | ------------------- |
-| Maltese  | 0.58<sub>±0.1</sub> | 0.63<sub>±0.05</sub> | 0.64<sub>±0.03</sub> |
-| Uyghur   | 0.77<sub>±0.04</sub> | 0.75<sub>±0.07</sub> | 0.81<sub>±0.02</sub> |
+| Maltese  | 0.58**<sub>±0.1</sub> | 0.63**<sub>±0.05</sub> | 0.64<sub>±0.03</sub> |
+| Uyghur   | 0.77**<sub>±0.04</sub> | 0.75**<sub>±0.07</sub> | 0.81<sub>±0.02</sub> |
 
 ### Six Low-Resource Languages
 
 | Language | mBERT (single) | mBERT (multiple) | mBERT (adversarial) |
 | -------- | -------------- | ---------------- | ------------------- |
-| Maltese  | 0.58<sub>±0.10</sub> | 0.62<sub>±0.01</sub> | 0.65<sub>±0.02</sub> |
+| Maltese  | 0.58**<sub>±0.10</sub> | 0.62<sub>±0.01</sub> | 0.65<sub>±0.02</sub> |
 | Uyghur   | 0.77<sub>±0.04</sub> | 0.69<sub>±0.03</sub> | 0.72<sub>±0.08</sub> |
-| Nepali   | 0.63<sub>±0.04</sub> | 0.63<sub>±0.05</sub> | 0.64<sub>±0.03</sub> |
+| Nepali   | 0.63**<sub>±0.04</sub> | 0.63**<sub>±0.05</sub> | 0.64<sub>±0.03</sub> |
 | Sundanese| 0.83<sub>±0.01</sub> | 0.81<sub>±0.01</sub> | 0.83<sub>±0.01</sub> |
 | Amharic  | 0.60<sub>±0.01</sub> | 0.60<sub>±0.01</sub> | 0.60<sub>±0.02</sub> |
 | Swahili  | 0.49<sub>±0.06</sub> | 0.65<sub>±0.02</sub> | 0.59<sub>±0.04</sub> |

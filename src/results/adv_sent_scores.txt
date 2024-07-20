@@ -1,0 +1,39 @@
+Overall Test Results - Test Loss: 2.3519, Test Sentiment Loss: 0.5582, Test Language Loss: 1.7936, Test Sentiment F1: 0.7687, Test Language F1: 0.1774
+Seed 42 - Language maltese - Test Loss: 2.9272, Sentiment Test Loss: 0.7185, Language Test Loss: 2.2087, Test Sentiment F1: 0.6837, Test Language F1: 0.0000
+Seed 42 - Language uyghur - Test Loss: 1.6692, Sentiment Test Loss: 0.2224, Language Test Loss: 1.4468, Test Sentiment F1: 0.8141, Test Language F1: 0.4131
+Seed 42 - Language nepali - Test Loss: 2.4147, Sentiment Test Loss: 0.6188, Language Test Loss: 1.7959, Test Sentiment F1: 0.6538, Test Language F1: 0.4990
+Seed 42 - Language sundanese - Test Loss: 2.8059, Sentiment Test Loss: 0.6553, Language Test Loss: 2.1506, Test Sentiment F1: 0.8285, Test Language F1: 0.0000
+Seed 42 - Language amharic - Test Loss: 2.4664, Sentiment Test Loss: 0.6304, Language Test Loss: 1.8361, Test Sentiment F1: 0.5869, Test Language F1: 0.0000
+Seed 42 - Language swahili - Test Loss: 2.5933, Sentiment Test Loss: 0.8217, Language Test Loss: 1.7716, Test Sentiment F1: 0.6195, Test Language F1: 0.0000
+
+Overall Test Results - Test Loss: 2.2331, Test Sentiment Loss: 0.5299, Test Language Loss: 1.7032, Test Sentiment F1: 0.7687, Test Language F1: 0.4042
+Seed 43 - Language maltese - Test Loss: 2.5276, Sentiment Test Loss: 0.7165, Language Test Loss: 1.8112, Test Sentiment F1: 0.6397, Test Language F1: 0.0615
+Seed 43 - Language uyghur - Test Loss: 1.6156, Sentiment Test Loss: 0.2630, Language Test Loss: 1.3526, Test Sentiment F1: 0.7805, Test Language F1: 0.1903
+Seed 43 - Language nepali - Test Loss: 2.2413, Sentiment Test Loss: 0.6383, Language Test Loss: 1.6030, Test Sentiment F1: 0.6127, Test Language F1: 0.2141
+Seed 43 - Language sundanese - Test Loss: 2.5110, Sentiment Test Loss: 0.4856, Language Test Loss: 2.0254, Test Sentiment F1: 0.8519, Test Language F1: 0.0000
+Seed 43 - Language amharic - Test Loss: 2.5804, Sentiment Test Loss: 0.6527, Language Test Loss: 1.9277, Test Sentiment F1: 0.5869, Test Language F1: 0.4777
+Seed 43 - Language swahili - Test Loss: 2.6855, Sentiment Test Loss: 0.7772, Language Test Loss: 1.9083, Test Sentiment F1: 0.5844, Test Language F1: 0.0000
+
+Overall Test Results - Test Loss: 2.3730, Test Sentiment Loss: 0.5275, Test Language Loss: 1.8454, Test Sentiment F1: 0.7540, Test Language F1: 0.0808
+Seed 44 - Language maltese - Test Loss: 2.7999, Sentiment Test Loss: 0.6093, Language Test Loss: 2.1905, Test Sentiment F1: 0.6710, Test Language F1: 0.0000
+Seed 44 - Language uyghur - Test Loss: 1.7501, Sentiment Test Loss: 0.2916, Language Test Loss: 1.4585, Test Sentiment F1: 0.7378, Test Language F1: 0.4684
+Seed 44 - Language nepali - Test Loss: 2.8193, Sentiment Test Loss: 0.7622, Language Test Loss: 2.0571, Test Sentiment F1: 0.6606, Test Language F1: 0.0000
+Seed 44 - Language sundanese - Test Loss: 2.6121, Sentiment Test Loss: 0.5780, Language Test Loss: 2.0341, Test Sentiment F1: 0.8140, Test Language F1: 0.0000
+Seed 44 - Language amharic - Test Loss: 2.4840, Sentiment Test Loss: 0.6563, Language Test Loss: 1.8276, Test Sentiment F1: 0.5869, Test Language F1: 0.0000
+Seed 44 - Language swahili - Test Loss: 2.5310, Sentiment Test Loss: 0.5788, Language Test Loss: 1.9523, Test Sentiment F1: 0.5073, Test Language F1: 0.0033
+
+Overall Test Results - Test Loss: 2.3462, Test Sentiment Loss: 0.5834, Test Language Loss: 1.7628, Test Sentiment F1: 0.7514, Test Language F1: 0.1513
+Seed 45 - Language maltese - Test Loss: 2.9545, Sentiment Test Loss: 0.8076, Language Test Loss: 2.1469, Test Sentiment F1: 0.6529, Test Language F1: 0.0302
+Seed 45 - Language uyghur - Test Loss: 1.7230, Sentiment Test Loss: 0.3289, Language Test Loss: 1.3941, Test Sentiment F1: 0.5848, Test Language F1: 0.2464
+Seed 45 - Language nepali - Test Loss: 2.3814, Sentiment Test Loss: 0.7976, Language Test Loss: 1.5838, Test Sentiment F1: 0.6107, Test Language F1: 0.0805
+Seed 45 - Language sundanese - Test Loss: 2.6394, Sentiment Test Loss: 0.5697, Language Test Loss: 2.0697, Test Sentiment F1: 0.8287, Test Language F1: 0.0000
+Seed 45 - Language amharic - Test Loss: 2.5568, Sentiment Test Loss: 0.7072, Language Test Loss: 1.8496, Test Sentiment F1: 0.6281, Test Language F1: 0.0000
+Seed 45 - Language swahili - Test Loss: 2.7001, Sentiment Test Loss: 0.7089, Language Test Loss: 1.9912, Test Sentiment F1: 0.6346, Test Language F1: 0.0000
+
+Overall Test Results - Test Loss: 2.2938, Test Sentiment Loss: 0.5117, Test Language Loss: 1.7821, Test Sentiment F1: 0.7605, Test Language F1: 0.1291
+Seed 46 - Language maltese - Test Loss: 2.4831, Sentiment Test Loss: 0.6228, Language Test Loss: 1.8603, Test Sentiment F1: 0.6272, Test Language F1: 0.0682
+Seed 46 - Language uyghur - Test Loss: 1.7960, Sentiment Test Loss: 0.3357, Language Test Loss: 1.4603, Test Sentiment F1: 0.6766, Test Language F1: 0.1946
+Seed 46 - Language nepali - Test Loss: 2.6531, Sentiment Test Loss: 0.6926, Language Test Loss: 1.9605, Test Sentiment F1: 0.6707, Test Language F1: 0.0000
+Seed 46 - Language sundanese - Test Loss: 2.3318, Sentiment Test Loss: 0.4288, Language Test Loss: 1.9030, Test Sentiment F1: 0.8137, Test Language F1: 0.0000
+Seed 46 - Language amharic - Test Loss: 2.6385, Sentiment Test Loss: 0.6685, Language Test Loss: 1.9700, Test Sentiment F1: 0.5869, Test Language F1: 0.0000
+Seed 46 - Language swahili - Test Loss: 2.5537, Sentiment Test Loss: 0.6131, Language Test Loss: 1.9406, Test Sentiment F1: 0.5865, Test Language F1: 0.0000

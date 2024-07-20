@@ -1,0 +1,109 @@
+Combined Test Set Results - Seed: 42, Num Epochs: 25
+Test Loss: 0.4827, Test Sentiment F1: 0.7616
+
+Language: maltese - Seed: 42, Num Epochs: 25
+Test Loss: 0.6155, Test Sentiment F1: 0.6467
+
+Language: uyghur - Seed: 42, Num Epochs: 25
+Test Loss: 0.2761, Test Sentiment F1: 0.6722
+
+Language: nepali - Seed: 42, Num Epochs: 25
+Test Loss: 0.6186, Test Sentiment F1: 0.6526
+
+Language: sundanese - Seed: 42, Num Epochs: 25
+Test Loss: 0.4524, Test Sentiment F1: 0.7992
+
+Language: amharic - Seed: 42, Num Epochs: 25
+Test Loss: 0.7154, Test Sentiment F1: 0.5869
+
+Language: swahili - Seed: 42, Num Epochs: 25
+Test Loss: 0.5926, Test Sentiment F1: 0.6578
+
+
+Combined Test Set Results - Seed: 43, Num Epochs: 25
+Test Loss: 0.4960, Test Sentiment F1: 0.7461
+
+Language: maltese - Seed: 43, Num Epochs: 25
+Test Loss: 0.6112, Test Sentiment F1: 0.6305
+
+Language: uyghur - Seed: 43, Num Epochs: 25
+Test Loss: 0.3127, Test Sentiment F1: 0.6965
+
+Language: nepali - Seed: 43, Num Epochs: 25
+Test Loss: 0.6842, Test Sentiment F1: 0.5490
+
+Language: sundanese - Seed: 43, Num Epochs: 25
+Test Loss: 0.4386, Test Sentiment F1: 0.8021
+
+Language: amharic - Seed: 43, Num Epochs: 25
+Test Loss: 0.6687, Test Sentiment F1: 0.6030
+
+Language: swahili - Seed: 43, Num Epochs: 25
+Test Loss: 0.6042, Test Sentiment F1: 0.6374
+
+
+Combined Test Set Results - Seed: 44, Num Epochs: 25
+Test Loss: 0.4883, Test Sentiment F1: 0.7551
+
+Language: maltese - Seed: 44, Num Epochs: 25
+Test Loss: 0.5864, Test Sentiment F1: 0.6116
+
+Language: uyghur - Seed: 44, Num Epochs: 25
+Test Loss: 0.2931, Test Sentiment F1: 0.6739
+
+Language: nepali - Seed: 44, Num Epochs: 25
+Test Loss: 0.6435, Test Sentiment F1: 0.6327
+
+Language: sundanese - Seed: 44, Num Epochs: 25
+Test Loss: 0.5073, Test Sentiment F1: 0.7975
+
+Language: amharic - Seed: 44, Num Epochs: 25
+Test Loss: 0.6279, Test Sentiment F1: 0.6030
+
+Language: swahili - Seed: 44, Num Epochs: 25
+Test Loss: 0.5867, Test Sentiment F1: 0.6103
+
+
+Combined Test Set Results - Seed: 45, Num Epochs: 25
+Test Loss: 0.4643, Test Sentiment F1: 0.7720
+
+Language: maltese - Seed: 45, Num Epochs: 25
+Test Loss: 0.6340, Test Sentiment F1: 0.6182
+
+Language: uyghur - Seed: 45, Num Epochs: 25
+Test Loss: 0.2422, Test Sentiment F1: 0.7543
+
+Language: nepali - Seed: 45, Num Epochs: 25
+Test Loss: 0.5977, Test Sentiment F1: 0.6663
+
+Language: sundanese - Seed: 45, Num Epochs: 25
+Test Loss: 0.4374, Test Sentiment F1: 0.8256
+
+Language: amharic - Seed: 45, Num Epochs: 25
+Test Loss: 0.6336, Test Sentiment F1: 0.6030
+
+Language: swahili - Seed: 45, Num Epochs: 25
+Test Loss: 0.5914, Test Sentiment F1: 0.6792
+
+
+Combined Test Set Results - Seed: 46, Num Epochs: 25
+Test Loss: 0.4843, Test Sentiment F1: 0.7676
+
+Language: maltese - Seed: 46, Num Epochs: 25
+Test Loss: 0.6453, Test Sentiment F1: 0.6164
+
+Language: uyghur - Seed: 46, Num Epochs: 25
+Test Loss: 0.2703, Test Sentiment F1: 0.6759
+
+Language: nepali - Seed: 46, Num Epochs: 25
+Test Loss: 0.6492, Test Sentiment F1: 0.6742
+
+Language: sundanese - Seed: 46, Num Epochs: 25
+Test Loss: 0.4660, Test Sentiment F1: 0.8057
+
+Language: amharic - Seed: 46, Num Epochs: 25
+Test Loss: 0.6441, Test Sentiment F1: 0.5869
+
+Language: swahili - Seed: 46, Num Epochs: 25
+Test Loss: 0.5737, Test Sentiment F1: 0.6411
+

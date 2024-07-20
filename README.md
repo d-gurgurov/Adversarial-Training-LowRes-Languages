@@ -6,7 +6,7 @@
 Fine-tuning a model while controlling for a specific attribute can significantly enhance its robustness. The approach involves:
 
 1. **Adversarial Head with Gradient Reversal Layer (GRL):**
-   - Predicts the languages to _hypothetically_ minimize the influence of a higher-resource language on the low-resource language results.
+   - Predicts the languages to _hypothetically_ minimize the influence of a higher-resource language on the low-resource language results and to extract language-agnostic features during classification head training.
    - Model is discouraged to correctly predict language by the gradients flowing back from an adversarial head being reversed.
    - Adjusts the magnitude of the gradients using an alpha parameter.
    - Fine-tunes the model, controlling for specific attributes and increasing its robustness against adversarial examples.
@@ -14,7 +14,7 @@ Fine-tuning a model while controlling for a specific attribute can significantly
 2. **Adversarial Head Goal:**
    - Achieve 50% accuracy to ensure no extra information is contained in the model.
 
-<img src="assets/adv_training.png" alt="Adversarial Training Illustration" width="400">
+<img src="assets/adv_training.png" alt="Adversarial Training Illustration" width="600">
 
 
 ### [Unsupervised Language Adaptation](https://aclanthology.org/D19-6102.pdf) (Rocha and Cardoso, 2019)
@@ -34,7 +34,8 @@ Adversarial training in a cross-lingual setting aims to make the neural network 
    - Chen et al. (2018) in [Adversarial Deep Averaging Networks for Cross-Lingual Sentiment Classification](https://aclanthology.org/Q18-1039/) propose minimizing the Wasserstein distance between the distribution of joint hidden features for source and target instances (bilingual examples).
    - Alpha regularizes the adversarial component, increasing its importance over time.
 
-![Adversarial Training Architecture](assets/adv_class.png)
+<img src="assets/adv_class.png" alt="Adversarial Training Architecture" width="400">
+
 
 4. **Shared and Private Architecture:**
    - Key Idea: Obtain two different representations of the input.
@@ -48,7 +49,7 @@ Adversarial training in a cross-lingual setting aims to make the neural network 
    - Language discriminator (uses private feature extractor)
    - Final loss includes task loss, language loss, difference loss (between shared and private representations), and similarity loss (between shared and private representations).
 
-<img src="assets/private_shared.png" alt="Shared and Private Architecture" width="500">
+<img src="assets/private_shared.png" alt="Shared and Private Architecture" width="800">
 
 
 The Shared Private architecture is introduced in [Adversarial Multi-Task Learning for Text Classification](https://aclanthology.org/P17-1001.pdf) by Liu et al. (2017).
@@ -66,7 +67,7 @@ The Shared Private architecture is introduced in [Adversarial Multi-Task Learnin
 
 | Language | mBERT (single) | mBERT (multiple) | mBERT (adversarial) |
 | -------- | -------------- | ---------------- | ------------------- |
-| Maltese  | 0.58**<sub>±0.10</sub> | 0.62<sub>±0.01</sub> | 0.65<sub>±0.02</sub> |
+| Maltese  | 0.58**<sub>±0.10</sub> | 0.62**<sub>±0.01</sub> | 0.65<sub>±0.02</sub> |
 | Uyghur   | 0.77<sub>±0.04</sub> | 0.69<sub>±0.03</sub> | 0.72<sub>±0.08</sub> |
 | Nepali   | 0.63**<sub>±0.04</sub> | 0.63**<sub>±0.05</sub> | 0.64<sub>±0.03</sub> |
 | Sundanese| 0.83<sub>±0.01</sub> | 0.81<sub>±0.01</sub> | 0.83<sub>±0.01</sub> |
